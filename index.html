@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dan Budget App-Registration</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<!-- About this Project-->
+<!-- This project involves the creation of Sign Up Page Using Bootstrap and Css for Budget App Called DanBudgetApp-->
+<!-- Project Scope: This project is limited to sign up page creation which is linked to a login page -->
+<!-- A more responsive version of this work will be updated later. This will be completely done using Bootstrap Grid System-->
+<body>
+    <!-- This Section is for the Navigation and Header Creation-->
+    <div >
+       <header>
+           <div class="container">
+                <nav>
+                        <div id="MenuImg"><img src="img.jpeg" width="30" height="50">
+                            <h1>DanBudgit Sign Up</h1></div>            
+                            <ul class="menu">
+                                <li id="home" >Contact Us</li>
+        <!-- This Section is for the linking of the Sign Up to the login page-->
+                                <li id="SignIn"><a href="loginPage.html">Sign In</a></li>
+                            </ul>
+                        </a>
+                    </nav>
+           </div>
+       </header>
+        <div class="parent">
+        <div class="container">
+            <div class="ImageDiv">
+                <img src="bg.png" alt="" srcset="">
+            </div>
+    <!-- This Section is for the Sign Up Form Creation-->
+            <div class="signUpForm">
+                <h2 class="classh2">Sign Up Here</h2>
+                    <form class="row g-3" >
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputPassword4" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress" class="form-label">Address</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress2" class="form-label">Address 2</label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputCity" class="form-label">City</label>
+                              <input type="text" class="form-control" id="inputCity">
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">State</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Abia</option>
+                                <option>Adamawa</option>
+                                
+                              </select>
+                            </div>
+                            <div class="col-md-2">
+                              <label for="inputZip" class="form-label">Zip</label>
+                              <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                 By filling this form, you have agreed to the Terms and Conditions.
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-7">
+                              <button type="submit" class="btn" style="font-weight:700; float:right;"><a href="loginPage.html">Submit</a></button>
+                            </div>
+                          </form>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
